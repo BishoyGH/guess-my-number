@@ -35,6 +35,7 @@ function App() {
     setIsGameOver(false);
     setGuess('');
     setSecretNumber(Math.floor(Math.random() * 20 + 1));
+    setMessage('Start guessing...');
     document.body.style.backgroundColor = '#222';
   }
   function handleGuessChange(e: any) {
